@@ -1,0 +1,1163 @@
+var _user$project$Main$aboutView = function (model) {
+	var _p0 = function () {
+		var _p1 = model.lang;
+		if (_p1.ctor === 'Kh') {
+			return {ctor: '_Tuple8', _0: model.bio.nameKh, _1: model.bio.locationKh, _2: 'ឈ្មោះ: ', _3: 'ទីតាំង: ', _4: 'អ៊ីមេល៍: ', _5: 'អំពី', _6: 'ចំណេះដឹងផ្នែក', _7: '_kh'};
+		} else {
+			return {ctor: '_Tuple8', _0: model.bio.nameEn, _1: model.bio.locationEn, _2: 'Name: ', _3: 'Location: ', _4: 'Email: ', _5: 'About', _6: 'Knowledge', _7: '_en'};
+		}
+	}();
+	var name = _p0._0;
+	var location = _p0._1;
+	var nameLabel = _p0._2;
+	var locationLabel = _p0._3;
+	var emailLabel = _p0._4;
+	var aboutLabel = _p0._5;
+	var knowledgeLabel = _p0._6;
+	var langClass = _p0._7;
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$style(
+				{
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'margin', _1: '20px'},
+					_1: {
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'flex', _1: '1 0 0 '},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'background-color', _1: 'white'},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'padding', _1: '30px'},
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$h1,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class(
+						A2(_elm_lang$core$Basics_ops['++'], 'title ', langClass)),
+					_1: {ctor: '[]'}
+				},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text(aboutLabel),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('columns'),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('column'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$figure,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('image is-3x4 my-profile'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$img,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$src('assets/profile.jpg'),
+												_1: {ctor: '[]'}
+											},
+											{ctor: '[]'}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$p,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class(langClass),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$strong,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(nameLabel),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text(name),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$p,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class(langClass),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$strong,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(locationLabel),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(location),
+													_1: {ctor: '[]'}
+												}
+											}),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$p,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class(langClass),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$strong,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(emailLabel),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('moremi.va@gmail.com'),
+														_1: {ctor: '[]'}
+													}
+												}),
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('column'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$h3,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class(
+												A2(_elm_lang$core$Basics_ops['++'], 'title is-4 ', langClass)),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text(knowledgeLabel),
+											_1: {ctor: '[]'}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('my-knowledge'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$p,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$a,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$href('http://elm-lang.org/'),
+																	_1: {ctor: '[]'}
+																}
+															},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Elm'),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$p,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('HTML, CSS, Javascript'),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$p,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Angularjs, '),
+																_1: {ctor: '[]'}
+															}),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$p,
+																{ctor: '[]'},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Node.js, Express.js, Laravel'),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$p,
+																	{ctor: '[]'},
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('Elixir, Phoenix'),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$Main$cardView = F2(
+	function (lang, work) {
+		var _p2 = function () {
+			var _p3 = lang;
+			if (_p3.ctor === 'Kh') {
+				return {ctor: '_Tuple3', _0: work.nameKh, _1: work.descKh, _2: '_kh'};
+			} else {
+				return {ctor: '_Tuple3', _0: work.nameEn, _1: work.descEn, _2: '_en'};
+			}
+		}();
+		var name = _p2._0;
+		var desc = _p2._1;
+		var langClass = _p2._2;
+		return A2(
+			_elm_lang$html$Html$div,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$class('column is-6-tablet is-4-desktop'),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('card'),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('card-image'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$figure,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('image is-2by1'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$img,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$alt('Image'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$src(work.image),
+													_1: {ctor: '[]'}
+												}
+											},
+											{ctor: '[]'}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('card-content'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('content my-content'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h4,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class(langClass),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$strong,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(name),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(
+															A2(_elm_lang$core$Basics_ops['++'], ': ', desc)),
+														_1: {ctor: '[]'}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$div,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('tag-list'),
+														_1: {ctor: '[]'}
+													},
+													A2(
+														_elm_lang$core$List$map,
+														function (tag) {
+															return A2(
+																_elm_lang$html$Html$span,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('tag is-dark'),
+																	_1: {ctor: '[]'}
+																},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text(tag),
+																	_1: {ctor: '[]'}
+																});
+														},
+														work.tagList)),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$footer,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('card-footer'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: (!_elm_lang$core$Native_Utils.eq(work.github, '')) ? A2(
+											_elm_lang$html$Html$a,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('card-footer-item'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$span,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('icon'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$i,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('fa fa-github'),
+																_1: {ctor: '[]'}
+															},
+															{ctor: '[]'}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('Github'),
+													_1: {ctor: '[]'}
+												}
+											}) : A2(
+											_elm_lang$html$Html$a,
+											{ctor: '[]'},
+											{ctor: '[]'}),
+										_1: {
+											ctor: '::',
+											_0: (!_elm_lang$core$Native_Utils.eq(work.website, '')) ? A2(
+												_elm_lang$html$Html$a,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$target('_blank'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$href(work.website),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('card-footer-item'),
+															_1: {ctor: '[]'}
+														}
+													}
+												},
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$span,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('icon'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$i,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('fa fa-globe'),
+																	_1: {ctor: '[]'}
+																},
+																{ctor: '[]'}),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Website'),
+														_1: {ctor: '[]'}
+													}
+												}) : A2(
+												_elm_lang$html$Html$a,
+												{ctor: '[]'},
+												{ctor: '[]'}),
+											_1: {ctor: '[]'}
+										}
+									}),
+								_1: {ctor: '[]'}
+							}
+						}
+					}),
+				_1: {ctor: '[]'}
+			});
+	});
+var _user$project$Main$pageView = function (model) {
+	var _p4 = model.page;
+	switch (_p4.ctor) {
+		case 'Home':
+			return A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('columns is-multiline '),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'margin', _1: '10px'},
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				},
+				A2(
+					_elm_lang$core$List$map,
+					_user$project$Main$cardView(model.lang),
+					model.workList));
+		case 'About':
+			return _user$project$Main$aboutView(model);
+		default:
+			return A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('columns '),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'margin', _1: '20px'},
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				},
+				{
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$h1,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('title is-2'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('Under Construction'),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				});
+	}
+};
+var _user$project$Main$workListInit = {
+	ctor: '::',
+	_0: {
+		nameEn: 'Khmer Unicode Enhance',
+		nameKh: 'Khmer Unicode Enhance',
+		descEn: 'Eliminate using shift and write double letter instead',
+		descKh: 'សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift',
+		tagList: {
+			ctor: '::',
+			_0: 'Elm',
+			_1: {ctor: '[]'}
+		},
+		website: 'https://chmar77.github.io/khmer-unicode-enhance/',
+		github: 'https://github.com/chmar77/khmer-unicode-enhance',
+		image: 'assets/images/KhmerUnicodeEnhance.png'
+	},
+	_1: {
+		ctor: '::',
+		_0: {
+			nameEn: 'Hangul-Khmer',
+			nameKh: 'Hangul-Khmer',
+			descEn: 'Create khmer pronunciation for Korean hangul',
+			descKh: 'បង្ហាញរបៀបអានសំលេងភាសារកូរ៉េតាមអក្សរខ្មែរ',
+			tagList: {
+				ctor: '::',
+				_0: 'Elm',
+				_1: {ctor: '[]'}
+			},
+			website: 'https://chmar77.github.io/hangul-khmer-pronunciation/',
+			github: 'https://github.com/chmar77/hangul-khmer-pronunciation',
+			image: 'assets/images/HangulPronunciation.png'
+		},
+		_1: {
+			ctor: '::',
+			_0: {
+				nameEn: 'Ey Sey Story Time',
+				nameKh: 'រឿងនិទានតាឥសី',
+				descEn: 'Website',
+				descKh: 'Website',
+				tagList: {
+					ctor: '::',
+					_0: 'HTML',
+					_1: {
+						ctor: '::',
+						_0: 'CSS',
+						_1: {
+							ctor: '::',
+							_0: 'Javascript',
+							_1: {ctor: '[]'}
+						}
+					}
+				},
+				website: 'http://eyseystorytime.com/',
+				github: '',
+				image: 'assets/images/EySeyStoryTime.png'
+			},
+			_1: {
+				ctor: '::',
+				_0: {
+					nameEn: 'Tumnukrap',
+					nameKh: 'ទំនុករ៉េប',
+					descEn: 'Lyric for Khmer Rap Song',
+					descKh: 'ទំនុកចម្រៀងសម្រាប់បទរ៉េបខ្មែរ',
+					tagList: {
+						ctor: '::',
+						_0: 'Node.js',
+						_1: {
+							ctor: '::',
+							_0: 'Express.js',
+							_1: {
+								ctor: '::',
+								_0: 'MongoDB',
+								_1: {ctor: '[]'}
+							}
+						}
+					},
+					website: 'https://tumnukrap.herokuapp.com/',
+					github: '',
+					image: 'assets/images/Tumnukrap.png'
+				},
+				_1: {
+					ctor: '::',
+					_0: {
+						nameEn: 'Somngat',
+						nameKh: 'សំងាត់',
+						descEn: 'Anonymous Real-Time Discussion',
+						descKh: 'សរសេរសារជាមួយអ្នកដ៏ទៃដោយមិនចុះឈ្មោះ',
+						tagList: {
+							ctor: '::',
+							_0: 'Node.js',
+							_1: {
+								ctor: '::',
+								_0: 'Socket.io',
+								_1: {
+									ctor: '::',
+									_0: 'Angular.js',
+									_1: {ctor: '[]'}
+								}
+							}
+						},
+						website: 'http://preah-chan.herokuapp.com/',
+						github: '',
+						image: 'assets/images/Somngat.png'
+					},
+					_1: {
+						ctor: '::',
+						_0: {
+							nameEn: 'Chet',
+							nameKh: 'ចិត្ត',
+							descEn: 'Real-time Discussion Forum',
+							descKh: 'កន្លែងពិភាក្សារបែប Real-Time Forum',
+							tagList: {
+								ctor: '::',
+								_0: 'Firebase',
+								_1: {
+									ctor: '::',
+									_0: 'Angular.js',
+									_1: {ctor: '[]'}
+								}
+							},
+							website: 'https://fireslack-wtmtest.firebaseapp.com',
+							github: '',
+							image: 'assets/images/Chet.png'
+						},
+						_1: {
+							ctor: '::',
+							_0: {
+								nameEn: 'Meetongyum',
+								nameKh: 'Meetongyum',
+								descEn: 'Write word overlay on picture',
+								descKh: 'Web app សម្រាប់ដាក់អក្សរនៅពីលើរូបភាព',
+								tagList: {
+									ctor: '::',
+									_0: 'Angular.js',
+									_1: {ctor: '[]'}
+								},
+								website: 'https://meetongyum.firebaseapp.com',
+								github: '',
+								image: 'assets/images/Meetongyum.png'
+							},
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	}
+};
+var _user$project$Main$Model = F6(
+	function (a, b, c, d, e, f) {
+		return {workList: a, lang: b, nav: c, bio: d, page: e, sidebarStatus: f};
+	});
+var _user$project$Main$NavModel = F3(
+	function (a, b, c) {
+		return {labelKh: a, labelEn: b, page: c};
+	});
+var _user$project$Main$BioModel = F8(
+	function (a, b, c, d, e, f, g, h) {
+		return {nameKh: a, nameEn: b, jobKh: c, jobEn: d, descKh: e, descEn: f, locationKh: g, locationEn: h};
+	});
+var _user$project$Main$WorkModel = F8(
+	function (a, b, c, d, e, f, g, h) {
+		return {nameEn: a, nameKh: b, descEn: c, descKh: d, github: e, website: f, tagList: g, image: h};
+	});
+var _user$project$Main$En = {ctor: 'En'};
+var _user$project$Main$Kh = {ctor: 'Kh'};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p5 = msg;
+		switch (_p5.ctor) {
+			case 'ToggleLang':
+				var lang_ = function () {
+					var _p6 = model.lang;
+					if (_p6.ctor === 'Kh') {
+						return _user$project$Main$En;
+					} else {
+						return _user$project$Main$Kh;
+					}
+				}();
+				return _elm_lang$core$Native_Utils.update(
+					model,
+					{lang: lang_});
+			case 'Navigate':
+				return _elm_lang$core$Native_Utils.update(
+					model,
+					{page: _p5._0});
+			case 'ShowSidebar':
+				return _elm_lang$core$Native_Utils.update(
+					model,
+					{sidebarStatus: !model.sidebarStatus});
+			default:
+				return model;
+		}
+	});
+var _user$project$Main$Blog = {ctor: 'Blog'};
+var _user$project$Main$About = {ctor: 'About'};
+var _user$project$Main$Home = {ctor: 'Home'};
+var _user$project$Main$model = {
+	workList: _user$project$Main$workListInit,
+	lang: _user$project$Main$Kh,
+	nav: {
+		ctor: '::',
+		_0: {labelKh: 'កម្មវិធីដែលធ្លាប់ធ្វើ', labelEn: 'Work', page: _user$project$Main$Home},
+		_1: {
+			ctor: '::',
+			_0: {labelKh: 'អំពី', labelEn: 'About', page: _user$project$Main$About},
+			_1: {
+				ctor: '::',
+				_0: {labelKh: 'អត្ថបទ', labelEn: 'Blog', page: _user$project$Main$Blog},
+				_1: {ctor: '[]'}
+			}
+		}
+	},
+	bio: {nameKh: 'វណ្ណៈ ម៉ូរ៉េមី', nameEn: 'Moremi Vannak', jobKh: 'Web Developer', jobEn: 'Web Developer', descKh: 'កំពុងសិក្សារនៅសកលវិទ្យាល័យ ហ្សាម៉ាន ឆ្នាំទី៣ ផ្នែកវិទ្យាសាស្ត្រកំព្យូទ័រ', descEn: 'Currently, 3rd Year Computer Science in Zaman University', locationKh: 'ភ្នំពេញ, កម្ពុជា', locationEn: 'Phnom Penh, Cambodia'},
+	page: _user$project$Main$Home,
+	sidebarStatus: false
+};
+var _user$project$Main$NoOp = {ctor: 'NoOp'};
+var _user$project$Main$ShowSidebar = {ctor: 'ShowSidebar'};
+var _user$project$Main$Navigate = function (a) {
+	return {ctor: 'Navigate', _0: a};
+};
+var _user$project$Main$ToggleLang = {ctor: 'ToggleLang'};
+var _user$project$Main$langView = function (lang) {
+	var _p7 = function () {
+		var _p8 = lang;
+		if (_p8.ctor === 'Kh') {
+			return {ctor: '_Tuple2', _0: 'English', _1: '_en'};
+		} else {
+			return {ctor: '_Tuple2', _0: 'ភាសារខ្មែរ', _1: '_kh'};
+		}
+	}();
+	var label = _p7._0;
+	var langClass = _p7._1;
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('item -lang'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$a,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class(langClass),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(_user$project$Main$ToggleLang),
+						_1: {ctor: '[]'}
+					}
+				},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text(label),
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$Main$navView = function (model) {
+	var _p9 = function () {
+		var _p10 = model.lang;
+		if (_p10.ctor === 'Kh') {
+			return {
+				ctor: '_Tuple5',
+				_0: model.bio.nameKh,
+				_1: model.bio.jobKh,
+				_2: model.bio.descKh,
+				_3: A2(
+					_elm_lang$core$List$map,
+					function (nav) {
+						return {label: nav.labelKh, page: nav.page};
+					},
+					model.nav),
+				_4: '_kh'
+			};
+		} else {
+			return {
+				ctor: '_Tuple5',
+				_0: model.bio.nameEn,
+				_1: model.bio.jobEn,
+				_2: model.bio.descEn,
+				_3: A2(
+					_elm_lang$core$List$map,
+					function (nav) {
+						return {label: nav.labelEn, page: nav.page};
+					},
+					model.nav),
+				_4: '_en'
+			};
+		}
+	}();
+	var name = _p9._0;
+	var job = _p9._1;
+	var desc = _p9._2;
+	var navList = _p9._3;
+	var langClass = _p9._4;
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('my-nav'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(
+					{
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'padding', _1: '10px'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'text-align', _1: 'center'},
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}
+		},
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			{
+				ctor: '::',
+				_0: _user$project$Main$langView(model.lang),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class(
+								A2(_elm_lang$core$Basics_ops['++'], 'item -name ', langClass)),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text(name),
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class(
+									A2(_elm_lang$core$Basics_ops['++'], 'item -job ', langClass)),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text(job),
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class(
+										A2(_elm_lang$core$Basics_ops['++'], 'item ', langClass)),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html$text(desc),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			},
+			A2(
+				_elm_lang$core$List$map,
+				function (nav) {
+					return A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Events$onClick(
+								_user$project$Main$Navigate(nav.page)),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class(
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										'item -link ',
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											langClass,
+											_elm_lang$core$Native_Utils.eq(model.page, nav.page) ? ' -active' : ''))),
+								_1: {ctor: '[]'}
+							}
+						},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text(nav.label),
+							_1: {ctor: '[]'}
+						});
+				},
+				navList)));
+};
+var _user$project$Main$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$style(
+				{
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'display', _1: 'flex'},
+					_1: {
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'flex-direction', _1: 'row'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'background-color', _1: 'white'},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'height', _1: '100%'},
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class(
+						_elm_lang$core$Native_Utils.eq(model.sidebarStatus, true) ? '' : 'is-hidden-mobile'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'background-color', _1: 'white'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: 'min-width', _1: '300px'},
+									_1: {
+										ctor: '::',
+										_0: {ctor: '_Tuple2', _0: 'flex', _1: '0 0 0 '},
+										_1: {
+											ctor: '::',
+											_0: {ctor: '_Tuple2', _0: 'display', _1: 'flex'},
+											_1: {
+												ctor: '::',
+												_0: {ctor: '_Tuple2', _0: 'justify-content', _1: 'center'},
+												_1: {
+													ctor: '::',
+													_0: {ctor: '_Tuple2', _0: 'align-items', _1: 'center'},
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				},
+				{
+					ctor: '::',
+					_0: _user$project$Main$navView(model),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'background-color', _1: 'white'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: 'flex-grow', _1: '1'},
+									_1: {
+										ctor: '::',
+										_0: {ctor: '_Tuple2', _0: 'display', _1: 'flex'},
+										_1: {
+											ctor: '::',
+											_0: {ctor: '_Tuple2', _0: 'flex-direction', _1: 'column'},
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('is-hidden-tablet'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Events$onClick(_user$project$Main$ShowSidebar),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$style(
+											{
+												ctor: '::',
+												_0: {ctor: '_Tuple2', _0: 'padding', _1: '10px'},
+												_1: {
+													ctor: '::',
+													_0: {ctor: '_Tuple2', _0: 'cursor', _1: 'pointer'},
+													_1: {ctor: '[]'}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text(
+									_elm_lang$core$Native_Utils.eq(model.sidebarStatus, true) ? 'Hide Sidebar ' : 'Show Sidebar'),
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$style(
+										{
+											ctor: '::',
+											_0: {ctor: '_Tuple2', _0: 'flex', _1: '1 0 0 '},
+											_1: {
+												ctor: '::',
+												_0: {ctor: '_Tuple2', _0: 'background-color', _1: '#eaeaea'},
+												_1: {
+													ctor: '::',
+													_0: {ctor: '_Tuple2', _0: 'overflow', _1: 'auto'},
+													_1: {ctor: '[]'}
+												}
+											}
+										}),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _user$project$Main$pageView(model),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$Main$main = _elm_lang$html$Html$beginnerProgram(
+	{model: _user$project$Main$model, update: _user$project$Main$update, view: _user$project$Main$view})();
