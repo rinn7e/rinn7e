@@ -8704,8 +8704,16 @@ var _user$project$Main$cardView = F2(
 											_elm_lang$html$Html$a,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('card-footer-item'),
-												_1: {ctor: '[]'}
+												_0: _elm_lang$html$Html_Attributes$target('_blank'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$href(work.github),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('card-footer-item'),
+														_1: {ctor: '[]'}
+													}
+												}
 											},
 											{
 												ctor: '::',
@@ -8858,144 +8866,165 @@ var _user$project$Main$pageView = function (model) {
 var _user$project$Main$workListInit = {
 	ctor: '::',
 	_0: {
-		nameEn: 'Khmer Unicode Enhance',
-		nameKh: 'Khmer Unicode Enhance',
-		descEn: 'Eliminate using shift and write double letter instead',
-		descKh: 'សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift',
+		nameEn: 'Elmfdasfa Khmer Dictionary',
+		nameKh: 'Elm Khmer Dictionary',
+		descEn: 'Khmer to Khmer Dictionary written in Elm using Globse API',
+		descKh: 'វេចនានុក្រមខ្មែរ សរសេរដោយភាសារកូដ Elm ដោយប្រើ Globse API',
 		tagList: {
 			ctor: '::',
-			_0: 'Elm',
-			_1: {ctor: '[]'}
+			_0: 'Tachyons CSS',
+			_1: {
+				ctor: '::',
+				_0: 'Elm',
+				_1: {ctor: '[]'}
+			}
 		},
-		website: 'https://chmar77.github.io/khmer-unicode-enhance/',
-		github: 'https://github.com/chmar77/khmer-unicode-enhance',
-		image: 'assets/images/KhmerUnicodeEnhance.png'
+		website: 'https://chmar77.github.io/elm-khmer-dictionary/',
+		github: 'https://github.com/chmar77/elm-khmer-dictionary',
+		image: 'assets/images/elm-khmer-dictionary.png'
 	},
 	_1: {
 		ctor: '::',
 		_0: {
-			nameEn: 'Hangul-Khmer',
-			nameKh: 'Hangul-Khmer',
-			descEn: 'Create khmer pronunciation for Korean hangul',
-			descKh: 'បង្ហាញរបៀបអានសំលេងភាសារកូរ៉េតាមអក្សរខ្មែរ',
+			nameEn: 'Khmer Unicode Enhance',
+			nameKh: 'Khmer Unicode Enhance',
+			descEn: 'Eliminate using shift and write double letter instead',
+			descKh: 'សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift',
 			tagList: {
 				ctor: '::',
 				_0: 'Elm',
 				_1: {ctor: '[]'}
 			},
-			website: 'https://chmar77.github.io/hangul-khmer-pronunciation/',
-			github: 'https://github.com/chmar77/hangul-khmer-pronunciation',
-			image: 'assets/images/HangulPronunciation.png'
+			website: 'https://chmar77.github.io/khmer-unicode-enhance/',
+			github: 'https://github.com/chmar77/khmer-unicode-enhance',
+			image: 'assets/images/KhmerUnicodeEnhance.png'
 		},
 		_1: {
 			ctor: '::',
 			_0: {
-				nameEn: 'Ey Sey Story Time',
-				nameKh: 'រឿងនិទានតាឥសី',
-				descEn: 'Website',
-				descKh: 'Website',
+				nameEn: 'Hangul-Khmer',
+				nameKh: 'Hangul-Khmer',
+				descEn: 'Create khmer pronunciation for Korean hangul',
+				descKh: 'បង្ហាញរបៀបអានសំលេងភាសារកូរ៉េតាមអក្សរខ្មែរ',
 				tagList: {
 					ctor: '::',
-					_0: 'HTML',
-					_1: {
-						ctor: '::',
-						_0: 'CSS',
-						_1: {
-							ctor: '::',
-							_0: 'Javascript',
-							_1: {ctor: '[]'}
-						}
-					}
+					_0: 'Elm',
+					_1: {ctor: '[]'}
 				},
-				website: 'http://eyseystorytime.com/',
-				github: '',
-				image: 'assets/images/EySeyStoryTime.png'
+				website: 'https://chmar77.github.io/hangul-khmer-pronunciation/',
+				github: 'https://github.com/chmar77/hangul-khmer-pronunciation',
+				image: 'assets/images/HangulPronunciation.png'
 			},
 			_1: {
 				ctor: '::',
 				_0: {
-					nameEn: 'Tumnukrap',
-					nameKh: 'ទំនុករ៉េប',
-					descEn: 'Lyric for Khmer Rap Song',
-					descKh: 'ទំនុកចម្រៀងសម្រាប់បទរ៉េបខ្មែរ',
+					nameEn: 'Ey Sey Story Time',
+					nameKh: 'រឿងនិទានតាឥសី',
+					descEn: 'Website',
+					descKh: 'Website',
 					tagList: {
 						ctor: '::',
-						_0: 'Node.js',
+						_0: 'HTML',
 						_1: {
 							ctor: '::',
-							_0: 'Express.js',
+							_0: 'CSS',
 							_1: {
 								ctor: '::',
-								_0: 'MongoDB',
+								_0: 'Javascript',
 								_1: {ctor: '[]'}
 							}
 						}
 					},
-					website: 'https://tumnukrap.herokuapp.com/',
+					website: 'http://eyseystorytime.com/',
 					github: '',
-					image: 'assets/images/Tumnukrap.png'
+					image: 'assets/images/EySeyStoryTime.png'
 				},
 				_1: {
 					ctor: '::',
 					_0: {
-						nameEn: 'Somngat',
-						nameKh: 'សំងាត់',
-						descEn: 'Anonymous Real-Time Discussion',
-						descKh: 'សរសេរសារជាមួយអ្នកដ៏ទៃដោយមិនចុះឈ្មោះ',
+						nameEn: 'Tumnukrap',
+						nameKh: 'ទំនុករ៉េប',
+						descEn: 'Lyric for Khmer Rap Song',
+						descKh: 'ទំនុកចម្រៀងសម្រាប់បទរ៉េបខ្មែរ',
 						tagList: {
 							ctor: '::',
 							_0: 'Node.js',
 							_1: {
 								ctor: '::',
-								_0: 'Socket.io',
+								_0: 'Express.js',
 								_1: {
 									ctor: '::',
-									_0: 'Angular.js',
+									_0: 'MongoDB',
 									_1: {ctor: '[]'}
 								}
 							}
 						},
-						website: 'http://preah-chan.herokuapp.com/',
+						website: 'https://tumnukrap.herokuapp.com/',
 						github: '',
-						image: 'assets/images/Somngat.png'
+						image: 'assets/images/Tumnukrap.png'
 					},
 					_1: {
 						ctor: '::',
 						_0: {
-							nameEn: 'Chet',
-							nameKh: 'ចិត្ត',
-							descEn: 'Real-time Discussion Forum',
-							descKh: 'កន្លែងពិភាក្សារបែប Real-Time Forum',
+							nameEn: 'Somngat',
+							nameKh: 'សំងាត់',
+							descEn: 'Anonymous Real-Time Discussion',
+							descKh: 'សរសេរសារជាមួយអ្នកដ៏ទៃដោយមិនចុះឈ្មោះ',
 							tagList: {
 								ctor: '::',
-								_0: 'Firebase',
+								_0: 'Node.js',
 								_1: {
 									ctor: '::',
-									_0: 'Angular.js',
-									_1: {ctor: '[]'}
+									_0: 'Socket.io',
+									_1: {
+										ctor: '::',
+										_0: 'Angular.js',
+										_1: {ctor: '[]'}
+									}
 								}
 							},
-							website: 'https://fireslack-wtmtest.firebaseapp.com',
+							website: 'http://preah-chan.herokuapp.com/',
 							github: '',
-							image: 'assets/images/Chet.png'
+							image: 'assets/images/Somngat.png'
 						},
 						_1: {
 							ctor: '::',
 							_0: {
-								nameEn: 'Meetongyum',
-								nameKh: 'Meetongyum',
-								descEn: 'Write word overlay on picture',
-								descKh: 'Web app សម្រាប់ដាក់អក្សរនៅពីលើរូបភាព',
+								nameEn: 'Chet',
+								nameKh: 'ចិត្ត',
+								descEn: 'Real-time Discussion Forum',
+								descKh: 'កន្លែងពិភាក្សារបែប Real-Time Forum',
 								tagList: {
 									ctor: '::',
-									_0: 'Angular.js',
-									_1: {ctor: '[]'}
+									_0: 'Firebase',
+									_1: {
+										ctor: '::',
+										_0: 'Angular.js',
+										_1: {ctor: '[]'}
+									}
 								},
-								website: 'https://meetongyum.firebaseapp.com',
+								website: 'https://fireslack-wtmtest.firebaseapp.com',
 								github: '',
-								image: 'assets/images/Meetongyum.png'
+								image: 'assets/images/Chet.png'
 							},
-							_1: {ctor: '[]'}
+							_1: {
+								ctor: '::',
+								_0: {
+									nameEn: 'Meetongyum',
+									nameKh: 'Meetongyum',
+									descEn: 'Write word overlay on picture',
+									descKh: 'Web app សម្រាប់ដាក់អក្សរនៅពីលើរូបភាព',
+									tagList: {
+										ctor: '::',
+										_0: 'Angular.js',
+										_1: {ctor: '[]'}
+									},
+									website: 'https://meetongyum.firebaseapp.com',
+									github: '',
+									image: 'assets/images/Meetongyum.png'
+								},
+								_1: {ctor: '[]'}
+							}
 						}
 					}
 				}

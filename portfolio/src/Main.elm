@@ -93,7 +93,16 @@ model =
 
 workListInit : List WorkModel
 workListInit =
-    [ { nameEn = "Khmer Unicode Enhance"
+    [ { nameEn = "Elmfdasfa Khmer Dictionary"
+      , nameKh = "Elm Khmer Dictionary"
+      , descEn = "Khmer to Khmer Dictionary written in Elm using Globse API"
+      , descKh = "វេចនានុក្រមខ្មែរ សរសេរដោយភាសារកូដ Elm ដោយប្រើ Globse API"
+      , tagList = [ "Tachyons CSS", "Elm" ]
+      , website = "https://chmar77.github.io/elm-khmer-dictionary/"
+      , github = "https://github.com/chmar77/elm-khmer-dictionary"
+      , image = "assets/images/elm-khmer-dictionary.png"
+      }
+    , { nameEn = "Khmer Unicode Enhance"
       , nameKh = "Khmer Unicode Enhance"
       , descEn = "Eliminate using shift and write double letter instead"
       , descKh = "សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift"
@@ -305,7 +314,7 @@ cardView lang work =
                     ]
                 , footer [ class "card-footer" ]
                     [ if (work.github /= "") then
-                        a [ class "card-footer-item" ]
+                        a [ target "_blank", href work.github, class "card-footer-item" ]
                             [ span [ class "icon" ]
                                 [ i [ class "fa fa-github" ] []
                                 ]
