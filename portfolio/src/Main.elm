@@ -68,7 +68,7 @@ type PageModel
 model : Model
 model =
     { workList = workListInit
-    , lang = Kh
+    , lang = En
     , nav =
         [ { labelKh = "កម្មវិធីដែលធ្លាប់ធ្វើ", labelEn = "Work", page = Home }
         , { labelKh = "អំពី", labelEn = "About", page = About }
@@ -78,7 +78,8 @@ model =
         { nameKh = "វណ្ណៈ ម៉ូរ៉េមី"
         , nameEn =
             "Moremi Vannak"
-            -- , jobKh = "អ្នកសរសេរគេហទំព័រ"
+
+        -- , jobKh = "អ្នកសរសេរគេហទំព័រ"
         , jobKh = "Web Developer"
         , jobEn = "Web Developer"
         , descKh = "កំពុងសិក្សារនៅសកលវិទ្យាល័យ ហ្សាម៉ាន ឆ្នាំទី៣ ផ្នែកវិទ្យាសាស្ត្រកំព្យូទ័រ"
@@ -93,7 +94,25 @@ model =
 
 workListInit : List WorkModel
 workListInit =
-    [ { nameEn = "Elmfdasfa Khmer Dictionary"
+    [ { nameEn = "Catastore"
+      , nameKh = "Catastore"
+      , descEn = "Frontend for the startup project call Catastore"
+      , descKh = "Frontend for the startup project call Catastore"
+      , tagList = [ "Elm", "Tachyons CSS" ]
+      , website = "http://catastore.com/furniture"
+      , github = ""
+      , image = "assets/images/catastore.png"
+      }
+    , { nameEn = "Tiscounts"
+      , nameKh = "Tiscounts"
+      , descEn = "Freelance Project, a website showing list of promotion"
+      , descKh = "Freelance Project, a website showing list of promotion"
+      , tagList = [ "Elm", "Elixir", "Bulma CSS" ]
+      , website = "http://tiscounts.com"
+      , github = ""
+      , image = "assets/images/tiscounts.png"
+      }
+    , { nameEn = "Elm Khmer Dictionary"
       , nameKh = "Elm Khmer Dictionary"
       , descEn = "Khmer to Khmer Dictionary written in Elm using Globse API"
       , descKh = "វេចនានុក្រមខ្មែរ សរសេរដោយភាសារកូដ Elm ដោយប្រើ Globse API"
