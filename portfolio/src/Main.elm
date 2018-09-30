@@ -72,7 +72,7 @@ model =
     , nav =
         [ { labelKh = "កម្មវិធីដែលធ្លាប់ធ្វើ", labelEn = "Work", page = Home }
         , { labelKh = "អំពី", labelEn = "About", page = About }
-        , { labelKh = "អត្ថបទ", labelEn = "Blog", page = Blog }
+        -- , { labelKh = "អត្ថបទ", labelEn = "Blog", page = Blog }
         ]
     , bio =
         { nameKh = "វណ្ណៈ ម៉ូរ៉េមី"
@@ -80,10 +80,10 @@ model =
             "Moremi Vannak"
 
         -- , jobKh = "អ្នកសរសេរគេហទំព័រ"
-        , jobKh = "Web Developer"
-        , jobEn = "Web Developer"
-        , descKh = "កំពុងសិក្សារនៅសកលវិទ្យាល័យ ហ្សាម៉ាន ឆ្នាំទី៣ ផ្នែកវិទ្យាសាស្ត្រកំព្យូទ័រ"
-        , descEn = "Currently, 3rd Year Computer Science in Zaman University"
+        , jobKh = ""
+        , jobEn = ""
+        , descKh = "អ្នកសរសេរគេហទំព័រ, ជំនាញខាង Functional Programming Language"
+        , descEn = "Enthusiastic Functional Programmer, specialized in Haskell, Purescript, Elm ..."
         , locationKh = "ភ្នំពេញ, កម្ពុជា"
         , locationEn = "Phnom Penh, Cambodia"
         }
@@ -94,7 +94,16 @@ model =
 
 workListInit : List WorkModel
 workListInit =
-    [ { nameEn = "Catastore"
+    [ { nameEn = "TDB Project"
+      , nameKh = "TDB Project"
+      , descEn = "Landing page for Time Deal Builder, using Haskell to generate wordpress template"
+      , descKh = "Landing page for Time Deal Builder, using Haskell to generate wordpress template"
+      , tagList = [ "Haskell", "Wordpress" ]
+      , website = "https://tdb-projects.com/full"
+      , github = ""
+      , image = "assets/images/tdb.png"
+      }
+    , { nameEn = "Catastore"
       , nameKh = "Catastore"
       , descEn = "Frontend for the startup project call Catastore"
       , descKh = "Frontend for the startup project call Catastore"
@@ -403,6 +412,7 @@ navView model =
                         )
                    )
                     navList
+                ++ [ a [ class "item -link _en", href "https://dev.to/rinn7e", target "_blank"] [text "Dev.to Blog"]]
             )
 
 
@@ -462,20 +472,21 @@ aboutView model =
                 [ div [ class "column" ]
                     [ figure [ class "image is-3x4 my-profile" ]
                         [ img [ src "assets/profile.jpg" ] [] ]
-                    , p [ class langClass ] [ strong [] [ text nameLabel ], text name ]
-                    , p [ class langClass ] [ strong [] [ text locationLabel ], text location ]
-                    , p [ class langClass ] [ strong [] [ text emailLabel ], text "moremi.va@gmail.com" ]
+                    , p [ class <| langClass ++ " pv2" ] [ strong [] [ text nameLabel ], text name ]
+                    , p [ class <| langClass ++ " pv2" ] [ strong [] [ text locationLabel ], text location ]
+                    , p [ class <| langClass ++ " pv2" ] [ strong [] [ text emailLabel ], text "moremi.va@gmail.com" ]
+                    , p [ class "_en pv2" ] [ a [ href "https://github.com/rinn7e", target "_blank" ] [text "Github" ]]
+                    , p [ class "_en pv2" ] [ a [ href "www.linkedin.com/in/moremi-vannak", target "_blank" ] [text "Linkedin" ]]
+                    , p [ class "_en pv2" ] [ a [ href "assets/resume.pdf", download True, target "_blank" ] [text "Download Resume" ]]
                     ]
                 , div [ class "column" ]
                     [ h3 [ class ("title is-4 " ++ langClass) ]
                         [ text knowledgeLabel ]
                     , div
                         [ class "my-knowledge" ]
-                        [ p [] [ a [ target "_blank", href "http://elm-lang.org/" ] [ text "Elm" ] ]
-                        , p [] [ text "HTML, CSS, Javascript" ]
-                        , p [] [ text "Angularjs, " ]
-                        , p [] [ text "Node.js, Express.js, Laravel" ]
-                        , p [] [ text "Elixir, Phoenix" ]
+                        [ p [class "pv2"] [ text "Haskell, Purescript, Elm" ]
+                        , p [class "pv2"] [ text "Node, Laravel, Phoenix" ]
+                        , p [class "pv2"] [ text "Docker" ]
                         ]
                     ]
                 ]

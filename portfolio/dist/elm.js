@@ -8361,7 +8361,8 @@ var _user$project$Main$aboutView = function (model) {
 										_elm_lang$html$Html$p,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class(langClass),
+											_0: _elm_lang$html$Html_Attributes$class(
+												A2(_elm_lang$core$Basics_ops['++'], langClass, ' pv2')),
 											_1: {ctor: '[]'}
 										},
 										{
@@ -8386,7 +8387,8 @@ var _user$project$Main$aboutView = function (model) {
 											_elm_lang$html$Html$p,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class(langClass),
+												_0: _elm_lang$html$Html_Attributes$class(
+													A2(_elm_lang$core$Basics_ops['++'], langClass, ' pv2')),
 												_1: {ctor: '[]'}
 											},
 											{
@@ -8411,7 +8413,8 @@ var _user$project$Main$aboutView = function (model) {
 												_elm_lang$html$Html$p,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class(langClass),
+													_0: _elm_lang$html$Html_Attributes$class(
+														A2(_elm_lang$core$Basics_ops['++'], langClass, ' pv2')),
 													_1: {ctor: '[]'}
 												},
 												{
@@ -8430,7 +8433,101 @@ var _user$project$Main$aboutView = function (model) {
 														_1: {ctor: '[]'}
 													}
 												}),
-											_1: {ctor: '[]'}
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$p,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('_en pv2'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$a,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$href('https://github.com/rinn7e'),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																	_1: {ctor: '[]'}
+																}
+															},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Github'),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$p,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('_en pv2'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$a,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$href('www.linkedin.com/in/moremi-vannak'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																		_1: {ctor: '[]'}
+																	}
+																},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Linkedin'),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$p,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('_en pv2'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$a,
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$href('assets/resume.pdf'),
+																		_1: {
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$download(true),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																				_1: {ctor: '[]'}
+																			}
+																		}
+																	},
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('Download Resume'),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}
+											}
 										}
 									}
 								}
@@ -8472,70 +8569,45 @@ var _user$project$Main$aboutView = function (model) {
 												ctor: '::',
 												_0: A2(
 													_elm_lang$html$Html$p,
-													{ctor: '[]'},
 													{
 														ctor: '::',
-														_0: A2(
-															_elm_lang$html$Html$a,
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$target('_blank'),
-																_1: {
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$href('http://elm-lang.org/'),
-																	_1: {ctor: '[]'}
-																}
-															},
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html$text('Elm'),
-																_1: {ctor: '[]'}
-															}),
+														_0: _elm_lang$html$Html_Attributes$class('pv2'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Haskell, Purescript, Elm'),
 														_1: {ctor: '[]'}
 													}),
 												_1: {
 													ctor: '::',
 													_0: A2(
 														_elm_lang$html$Html$p,
-														{ctor: '[]'},
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html$text('HTML, CSS, Javascript'),
+															_0: _elm_lang$html$Html_Attributes$class('pv2'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('Node, Laravel, Phoenix'),
 															_1: {ctor: '[]'}
 														}),
 													_1: {
 														ctor: '::',
 														_0: A2(
 															_elm_lang$html$Html$p,
-															{ctor: '[]'},
 															{
 																ctor: '::',
-																_0: _elm_lang$html$Html$text('Angularjs, '),
+																_0: _elm_lang$html$Html_Attributes$class('pv2'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Docker'),
 																_1: {ctor: '[]'}
 															}),
-														_1: {
-															ctor: '::',
-															_0: A2(
-																_elm_lang$html$Html$p,
-																{ctor: '[]'},
-																{
-																	ctor: '::',
-																	_0: _elm_lang$html$Html$text('Node.js, Express.js, Laravel'),
-																	_1: {ctor: '[]'}
-																}),
-															_1: {
-																ctor: '::',
-																_0: A2(
-																	_elm_lang$html$Html$p,
-																	{ctor: '[]'},
-																	{
-																		ctor: '::',
-																		_0: _elm_lang$html$Html$text('Elixir, Phoenix'),
-																		_1: {ctor: '[]'}
-																	}),
-																_1: {ctor: '[]'}
-															}
-														}
+														_1: {ctor: '[]'}
 													}
 												}
 											}),
@@ -8866,208 +8938,229 @@ var _user$project$Main$pageView = function (model) {
 var _user$project$Main$workListInit = {
 	ctor: '::',
 	_0: {
-		nameEn: 'Catastore',
-		nameKh: 'Catastore',
-		descEn: 'Frontend for the startup project call Catastore',
-		descKh: 'Frontend for the startup project call Catastore',
+		nameEn: 'TDB Project',
+		nameKh: 'TDB Project',
+		descEn: 'Landing page for Time Deal Builder, using Haskell to generate wordpress template',
+		descKh: 'Landing page for Time Deal Builder, using Haskell to generate wordpress template',
 		tagList: {
 			ctor: '::',
-			_0: 'Elm',
+			_0: 'Haskell',
 			_1: {
 				ctor: '::',
-				_0: 'Tachyons CSS',
+				_0: 'Wordpress',
 				_1: {ctor: '[]'}
 			}
 		},
-		website: 'http://catastore.com/furniture',
+		website: 'https://tdb-projects.com/full',
 		github: '',
-		image: 'assets/images/catastore.png'
+		image: 'assets/images/tdb.png'
 	},
 	_1: {
 		ctor: '::',
 		_0: {
-			nameEn: 'Tiscounts',
-			nameKh: 'Tiscounts',
-			descEn: 'Freelance Project, a website showing list of promotion',
-			descKh: 'Freelance Project, a website showing list of promotion',
+			nameEn: 'Catastore',
+			nameKh: 'Catastore',
+			descEn: 'Frontend for the startup project call Catastore',
+			descKh: 'Frontend for the startup project call Catastore',
 			tagList: {
 				ctor: '::',
 				_0: 'Elm',
 				_1: {
 					ctor: '::',
-					_0: 'Elixir',
-					_1: {
-						ctor: '::',
-						_0: 'Bulma CSS',
-						_1: {ctor: '[]'}
-					}
+					_0: 'Tachyons CSS',
+					_1: {ctor: '[]'}
 				}
 			},
-			website: 'http://tiscounts.com',
+			website: 'http://catastore.com/furniture',
 			github: '',
-			image: 'assets/images/tiscounts.png'
+			image: 'assets/images/catastore.png'
 		},
 		_1: {
 			ctor: '::',
 			_0: {
-				nameEn: 'Elm Khmer Dictionary',
-				nameKh: 'Elm Khmer Dictionary',
-				descEn: 'Khmer to Khmer Dictionary written in Elm using Globse API',
-				descKh: 'វេចនានុក្រមខ្មែរ សរសេរដោយភាសារកូដ Elm ដោយប្រើ Globse API',
+				nameEn: 'Tiscounts',
+				nameKh: 'Tiscounts',
+				descEn: 'Freelance Project, a website showing list of promotion',
+				descKh: 'Freelance Project, a website showing list of promotion',
 				tagList: {
 					ctor: '::',
-					_0: 'Tachyons CSS',
+					_0: 'Elm',
 					_1: {
 						ctor: '::',
-						_0: 'Elm',
-						_1: {ctor: '[]'}
+						_0: 'Elixir',
+						_1: {
+							ctor: '::',
+							_0: 'Bulma CSS',
+							_1: {ctor: '[]'}
+						}
 					}
 				},
-				website: 'https://chmar77.github.io/elm-khmer-dictionary/',
-				github: 'https://github.com/chmar77/elm-khmer-dictionary',
-				image: 'assets/images/elm-khmer-dictionary.png'
+				website: 'http://tiscounts.com',
+				github: '',
+				image: 'assets/images/tiscounts.png'
 			},
 			_1: {
 				ctor: '::',
 				_0: {
-					nameEn: 'Khmer Unicode Enhance',
-					nameKh: 'Khmer Unicode Enhance',
-					descEn: 'Eliminate using shift and write double letter instead',
-					descKh: 'សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift',
+					nameEn: 'Elm Khmer Dictionary',
+					nameKh: 'Elm Khmer Dictionary',
+					descEn: 'Khmer to Khmer Dictionary written in Elm using Globse API',
+					descKh: 'វេចនានុក្រមខ្មែរ សរសេរដោយភាសារកូដ Elm ដោយប្រើ Globse API',
 					tagList: {
 						ctor: '::',
-						_0: 'Elm',
-						_1: {ctor: '[]'}
+						_0: 'Tachyons CSS',
+						_1: {
+							ctor: '::',
+							_0: 'Elm',
+							_1: {ctor: '[]'}
+						}
 					},
-					website: 'https://chmar77.github.io/khmer-unicode-enhance/',
-					github: 'https://github.com/chmar77/khmer-unicode-enhance',
-					image: 'assets/images/KhmerUnicodeEnhance.png'
+					website: 'https://chmar77.github.io/elm-khmer-dictionary/',
+					github: 'https://github.com/chmar77/elm-khmer-dictionary',
+					image: 'assets/images/elm-khmer-dictionary.png'
 				},
 				_1: {
 					ctor: '::',
 					_0: {
-						nameEn: 'Hangul-Khmer',
-						nameKh: 'Hangul-Khmer',
-						descEn: 'Create khmer pronunciation for Korean hangul',
-						descKh: 'បង្ហាញរបៀបអានសំលេងភាសារកូរ៉េតាមអក្សរខ្មែរ',
+						nameEn: 'Khmer Unicode Enhance',
+						nameKh: 'Khmer Unicode Enhance',
+						descEn: 'Eliminate using shift and write double letter instead',
+						descKh: 'សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift',
 						tagList: {
 							ctor: '::',
 							_0: 'Elm',
 							_1: {ctor: '[]'}
 						},
-						website: 'https://chmar77.github.io/hangul-khmer-pronunciation/',
-						github: 'https://github.com/chmar77/hangul-khmer-pronunciation',
-						image: 'assets/images/HangulPronunciation.png'
+						website: 'https://chmar77.github.io/khmer-unicode-enhance/',
+						github: 'https://github.com/chmar77/khmer-unicode-enhance',
+						image: 'assets/images/KhmerUnicodeEnhance.png'
 					},
 					_1: {
 						ctor: '::',
 						_0: {
-							nameEn: 'Ey Sey Story Time',
-							nameKh: 'រឿងនិទានតាឥសី',
-							descEn: 'Website',
-							descKh: 'Website',
+							nameEn: 'Hangul-Khmer',
+							nameKh: 'Hangul-Khmer',
+							descEn: 'Create khmer pronunciation for Korean hangul',
+							descKh: 'បង្ហាញរបៀបអានសំលេងភាសារកូរ៉េតាមអក្សរខ្មែរ',
 							tagList: {
 								ctor: '::',
-								_0: 'HTML',
-								_1: {
-									ctor: '::',
-									_0: 'CSS',
-									_1: {
-										ctor: '::',
-										_0: 'Javascript',
-										_1: {ctor: '[]'}
-									}
-								}
+								_0: 'Elm',
+								_1: {ctor: '[]'}
 							},
-							website: 'http://eyseystorytime.com/',
-							github: '',
-							image: 'assets/images/EySeyStoryTime.png'
+							website: 'https://chmar77.github.io/hangul-khmer-pronunciation/',
+							github: 'https://github.com/chmar77/hangul-khmer-pronunciation',
+							image: 'assets/images/HangulPronunciation.png'
 						},
 						_1: {
 							ctor: '::',
 							_0: {
-								nameEn: 'Tumnukrap',
-								nameKh: 'ទំនុករ៉េប',
-								descEn: 'Lyric for Khmer Rap Song',
-								descKh: 'ទំនុកចម្រៀងសម្រាប់បទរ៉េបខ្មែរ',
+								nameEn: 'Ey Sey Story Time',
+								nameKh: 'រឿងនិទានតាឥសី',
+								descEn: 'Website',
+								descKh: 'Website',
 								tagList: {
 									ctor: '::',
-									_0: 'Node.js',
+									_0: 'HTML',
 									_1: {
 										ctor: '::',
-										_0: 'Express.js',
+										_0: 'CSS',
 										_1: {
 											ctor: '::',
-											_0: 'MongoDB',
+											_0: 'Javascript',
 											_1: {ctor: '[]'}
 										}
 									}
 								},
-								website: 'https://tumnukrap.herokuapp.com/',
+								website: 'http://eyseystorytime.com/',
 								github: '',
-								image: 'assets/images/Tumnukrap.png'
+								image: 'assets/images/EySeyStoryTime.png'
 							},
 							_1: {
 								ctor: '::',
 								_0: {
-									nameEn: 'Somngat',
-									nameKh: 'សំងាត់',
-									descEn: 'Anonymous Real-Time Discussion',
-									descKh: 'សរសេរសារជាមួយអ្នកដ៏ទៃដោយមិនចុះឈ្មោះ',
+									nameEn: 'Tumnukrap',
+									nameKh: 'ទំនុករ៉េប',
+									descEn: 'Lyric for Khmer Rap Song',
+									descKh: 'ទំនុកចម្រៀងសម្រាប់បទរ៉េបខ្មែរ',
 									tagList: {
 										ctor: '::',
 										_0: 'Node.js',
 										_1: {
 											ctor: '::',
-											_0: 'Socket.io',
+											_0: 'Express.js',
 											_1: {
 												ctor: '::',
-												_0: 'Angular.js',
+												_0: 'MongoDB',
 												_1: {ctor: '[]'}
 											}
 										}
 									},
-									website: 'http://preah-chan.herokuapp.com/',
+									website: 'https://tumnukrap.herokuapp.com/',
 									github: '',
-									image: 'assets/images/Somngat.png'
+									image: 'assets/images/Tumnukrap.png'
 								},
 								_1: {
 									ctor: '::',
 									_0: {
-										nameEn: 'Chet',
-										nameKh: 'ចិត្ត',
-										descEn: 'Real-time Discussion Forum',
-										descKh: 'កន្លែងពិភាក្សារបែប Real-Time Forum',
+										nameEn: 'Somngat',
+										nameKh: 'សំងាត់',
+										descEn: 'Anonymous Real-Time Discussion',
+										descKh: 'សរសេរសារជាមួយអ្នកដ៏ទៃដោយមិនចុះឈ្មោះ',
 										tagList: {
 											ctor: '::',
-											_0: 'Firebase',
+											_0: 'Node.js',
 											_1: {
 												ctor: '::',
-												_0: 'Angular.js',
-												_1: {ctor: '[]'}
+												_0: 'Socket.io',
+												_1: {
+													ctor: '::',
+													_0: 'Angular.js',
+													_1: {ctor: '[]'}
+												}
 											}
 										},
-										website: 'https://fireslack-wtmtest.firebaseapp.com',
+										website: 'http://preah-chan.herokuapp.com/',
 										github: '',
-										image: 'assets/images/Chet.png'
+										image: 'assets/images/Somngat.png'
 									},
 									_1: {
 										ctor: '::',
 										_0: {
-											nameEn: 'Meetongyum',
-											nameKh: 'Meetongyum',
-											descEn: 'Write word overlay on picture',
-											descKh: 'Web app សម្រាប់ដាក់អក្សរនៅពីលើរូបភាព',
+											nameEn: 'Chet',
+											nameKh: 'ចិត្ត',
+											descEn: 'Real-time Discussion Forum',
+											descKh: 'កន្លែងពិភាក្សារបែប Real-Time Forum',
 											tagList: {
 												ctor: '::',
-												_0: 'Angular.js',
-												_1: {ctor: '[]'}
+												_0: 'Firebase',
+												_1: {
+													ctor: '::',
+													_0: 'Angular.js',
+													_1: {ctor: '[]'}
+												}
 											},
-											website: 'https://meetongyum.firebaseapp.com',
+											website: 'https://fireslack-wtmtest.firebaseapp.com',
 											github: '',
-											image: 'assets/images/Meetongyum.png'
+											image: 'assets/images/Chet.png'
 										},
-										_1: {ctor: '[]'}
+										_1: {
+											ctor: '::',
+											_0: {
+												nameEn: 'Meetongyum',
+												nameKh: 'Meetongyum',
+												descEn: 'Write word overlay on picture',
+												descKh: 'Web app សម្រាប់ដាក់អក្សរនៅពីលើរូបភាព',
+												tagList: {
+													ctor: '::',
+													_0: 'Angular.js',
+													_1: {ctor: '[]'}
+												},
+												website: 'https://meetongyum.firebaseapp.com',
+												github: '',
+												image: 'assets/images/Meetongyum.png'
+											},
+											_1: {ctor: '[]'}
+										}
 									}
 								}
 							}
@@ -9136,14 +9229,10 @@ var _user$project$Main$model = {
 		_1: {
 			ctor: '::',
 			_0: {labelKh: 'អំពី', labelEn: 'About', page: _user$project$Main$About},
-			_1: {
-				ctor: '::',
-				_0: {labelKh: 'អត្ថបទ', labelEn: 'Blog', page: _user$project$Main$Blog},
-				_1: {ctor: '[]'}
-			}
+			_1: {ctor: '[]'}
 		}
 	},
-	bio: {nameKh: 'វណ្ណៈ ម៉ូរ៉េមី', nameEn: 'Moremi Vannak', jobKh: 'Web Developer', jobEn: 'Web Developer', descKh: 'កំពុងសិក្សារនៅសកលវិទ្យាល័យ ហ្សាម៉ាន ឆ្នាំទី៣ ផ្នែកវិទ្យាសាស្ត្រកំព្យូទ័រ', descEn: 'Currently, 3rd Year Computer Science in Zaman University', locationKh: 'ភ្នំពេញ, កម្ពុជា', locationEn: 'Phnom Penh, Cambodia'},
+	bio: {nameKh: 'វណ្ណៈ ម៉ូរ៉េមី', nameEn: 'Moremi Vannak', jobKh: '', jobEn: '', descKh: 'អ្នកសរសេរគេហទំព័រ, ជំនាញខាង Functional Programming Language', descEn: 'Enthusiastic Functional Programmer, specialized in Haskell, Purescript, Elm ...', locationKh: 'ភ្នំពេញ, កម្ពុជា', locationEn: 'Phnom Penh, Cambodia'},
 	page: _user$project$Main$Home,
 	sidebarStatus: false
 };
@@ -9306,34 +9395,60 @@ var _user$project$Main$navView = function (model) {
 				}
 			},
 			A2(
-				_elm_lang$core$List$map,
-				function (nav) {
-					return A2(
-						_elm_lang$html$Html$div,
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html_Events$onClick(
-								_user$project$Main$Navigate(nav.page)),
-							_1: {
+				_elm_lang$core$Basics_ops['++'],
+				A2(
+					_elm_lang$core$List$map,
+					function (nav) {
+						return A2(
+							_elm_lang$html$Html$div,
+							{
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class(
-									A2(
-										_elm_lang$core$Basics_ops['++'],
-										'item -link ',
+								_0: _elm_lang$html$Html_Events$onClick(
+									_user$project$Main$Navigate(nav.page)),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class(
 										A2(
 											_elm_lang$core$Basics_ops['++'],
-											langClass,
-											_elm_lang$core$Native_Utils.eq(model.page, nav.page) ? ' -active' : ''))),
+											'item -link ',
+											A2(
+												_elm_lang$core$Basics_ops['++'],
+												langClass,
+												_elm_lang$core$Native_Utils.eq(model.page, nav.page) ? ' -active' : ''))),
+									_1: {ctor: '[]'}
+								}
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text(nav.label),
 								_1: {ctor: '[]'}
+							});
+					},
+					navList),
+				{
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$a,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('item -link _en'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('https://dev.to/rinn7e'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$target('_blank'),
+									_1: {ctor: '[]'}
+								}
 							}
 						},
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html$text(nav.label),
+							_0: _elm_lang$html$Html$text('Dev.to Blog'),
 							_1: {ctor: '[]'}
-						});
-				},
-				navList)));
+						}),
+					_1: {ctor: '[]'}
+				})));
 };
 var _user$project$Main$view = function (model) {
 	return A2(
