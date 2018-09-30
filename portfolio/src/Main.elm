@@ -126,8 +126,8 @@ workListInit =
       , descEn = "Khmer to Khmer Dictionary written in Elm using Globse API"
       , descKh = "វេចនានុក្រមខ្មែរ សរសេរដោយភាសារកូដ Elm ដោយប្រើ Globse API"
       , tagList = [ "Tachyons CSS", "Elm" ]
-      , website = "https://chmar77.github.io/elm-khmer-dictionary/"
-      , github = "https://github.com/chmar77/elm-khmer-dictionary"
+      , website = "https://rinn7e.github.io/elm-khmer-dictionary/"
+      , github = "https://github.com/rinn7e/elm-khmer-dictionary"
       , image = "assets/images/elm-khmer-dictionary.png"
       }
     , { nameEn = "Khmer Unicode Enhance"
@@ -135,8 +135,8 @@ workListInit =
       , descEn = "Eliminate using shift and write double letter instead"
       , descKh = "សរសេរភាសារខ្មែរដោយមិនចាំបាច់ចុច shift"
       , tagList = [ "Elm" ]
-      , website = "https://chmar77.github.io/khmer-unicode-enhance/"
-      , github = "https://github.com/chmar77/khmer-unicode-enhance"
+      , website = "https://rinn7e.github.io/khmer-unicode-enhance/"
+      , github = "https://github.com/rinn7e/khmer-unicode-enhance"
       , image = "assets/images/KhmerUnicodeEnhance.png"
       }
     , { nameEn = "Hangul-Khmer"
@@ -144,8 +144,8 @@ workListInit =
       , descEn = "Create khmer pronunciation for Korean hangul"
       , descKh = "បង្ហាញរបៀបអានសំលេងភាសារកូរ៉េតាមអក្សរខ្មែរ"
       , tagList = [ "Elm" ]
-      , website = "https://chmar77.github.io/hangul-khmer-pronunciation/"
-      , github = "https://github.com/chmar77/hangul-khmer-pronunciation"
+      , website = "https://rinn7e.github.io/hangul-khmer-pronunciation/"
+      , github = "https://github.com/rinn7e/hangul-khmer-pronunciation"
       , image = "assets/images/HangulPronunciation.png"
       }
     , { nameEn = "Ey Sey Story Time"
