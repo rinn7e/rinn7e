@@ -8512,8 +8512,12 @@ var _user$project$Main$aboutView = function (model) {
 																			_0: _elm_lang$html$Html_Attributes$download(true),
 																			_1: {
 																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$target('_blank'),
-																				_1: {ctor: '[]'}
+																				_0: _elm_lang$html$Html_Attributes$downloadAs('moremi-vannak-resume.pdf'),
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																					_1: {ctor: '[]'}
+																				}
 																			}
 																		}
 																	},

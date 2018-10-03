@@ -477,7 +477,7 @@ aboutView model =
                     , p [ class <| langClass ++ " pv2" ] [ strong [] [ text emailLabel ], text "moremi.va@gmail.com" ]
                     , p [ class "_en pv2" ] [ a [ href "https://github.com/rinn7e", target "_blank" ] [text "Github" ]]
                     , p [ class "_en pv2" ] [ a [ href "https://www.linkedin.com/in/moremi-vannak", target "_blank" ] [text "Linkedin" ]]
-                    , p [ class "_en pv2" ] [ a [ href "assets/resume.pdf", download True, target "_blank" ] [text "Download Resume" ]]
+                    , p [ class "_en pv2" ] [ a [ href "assets/resume.pdf", download True, downloadAs "moremi-vannak-resume.pdf", target "_blank" ] [text "Download Resume" ]]
                     ]
                 , div [ class "column" ]
                     [ h3 [ class ("title is-4 " ++ langClass) ]
