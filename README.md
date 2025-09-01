@@ -1,11 +1,3 @@
-# Kampu Law Frontend
+# My personal website
 
-- Build with Elm + Tailwindcss + Vite.
-- Support PWA
-
-## Get Started
-
-```bash
-npm install
-npm run dev
-```
+https://rinn7e.github.io/rinn7e/
