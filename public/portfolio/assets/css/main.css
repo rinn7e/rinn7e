@@ -1,0 +1,58 @@
+html, body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  color:black;
+  background-color:white;
+  
+}
+/*------Override--------*/
+a {
+  color:#28ab49;
+  display:block;
+}
+
+/*----------Helper-----------*/
+._kh {
+  font-family: 'Chenla', cursive;
+}
+
+/*----------My Own Style------------*/
+.my-content h4 {
+  line-height:1.4;
+}
+
+/*-----------------------*/
+.my-nav > .item{
+   margin-bottom:20px;
+}
+
+
+.my-nav > .item.-name{
+  font-size:1.5rem;
+}
+
+.my-nav > .item.-link{
+  padding:10px 0;
+  cursor:pointer;
+  margin-bottom:0px;
+}
+.my-nav > .item.-link:hover{
+  background-color:#cacaca;
+}
+
+.my-nav > .item.-link.-active{
+  background-color:black;
+  color:white;
+}
+/*-----------------------*/
+.tag-list > .tag {
+  margin:5px 5px 0 0 ;
+}
+/*------------------------*/
+.my-profile{
+  overflow:hidden;
+  margin-bottom:20px;
+  width:200px;
+}

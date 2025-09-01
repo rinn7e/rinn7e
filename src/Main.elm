@@ -59,7 +59,7 @@ link1 =
 
 link2 =
     [ a [ href "https://dev.to/rinn7e", class "hover:underline", target "_blank" ] [ text "dev.to" ]
-    , a [ href "https://rinn7e.github.io/rinn7e/portfolio/", class "hover:underline", target "_blank" ] [ text "(old) portfolio" ]
+    , a [ href "https://rinn7e.github.io/rinn7e/portfolio/index.html", class "hover:underline", target "_blank" ] [ text "(old) portfolio" ]
     ]
 
 

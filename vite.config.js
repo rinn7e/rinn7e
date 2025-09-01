@@ -8,7 +8,6 @@ export default defineConfig({
   base: 'https://rinn7e.github.io/rinn7e/',
   plugins: [
     // basicSsl(),
-    
     elmPlugin(),
     VitePWA({
       registerType: 'prompt',
