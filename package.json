@@ -20,7 +20,7 @@
     "@fontsource/chenla": "^5.2.5",
     "@fontsource/moulpali": "^5.2.6",
     "@tailwindcss/postcss": "^4.1.12",
-    "@vite-pwa/assets-generator": "^1.0.0",
+    "@vite-pwa/assets-generator": "^1.0.2",
     "@vitejs/plugin-basic-ssl": "^2.1.0",
     "daisyui": "^5.0.54",
     "elm-debug-transformer": "^1.2.1",
@@ -30,6 +30,10 @@
     "tailwindcss": "^4.1.12",
     "vite": "^6.3.5",
     "vite-plugin-elm": "^3.0.1",
-    "vite-plugin-pwa": "^1.0.3"
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "overrides": {
+    "cross-spawn": "7.0.6",
+    "serialize-javascript": "7.0.5"
   }
 }
